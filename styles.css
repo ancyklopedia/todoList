@@ -1,0 +1,96 @@
+  
+  html {
+    font-family: "Roboto", sans-serif;
+    color: #fffde7;
+  }
+  
+  body {
+    background-color: #bbcfbe;
+    display:flex;
+    justify-content: center;
+  }
+  
+  #container {
+    background-color: #4d7451;
+    width:30rem;
+    min-height:33rem;
+    text-align: center;
+    border-radius:1.5rem;
+  }
+
+  .main-header {
+    background-color: #2c3d2e;
+    min-height: 70px;
+    padding:1rem;
+    border-radius:1.5rem;
+  }
+  
+  .main-header h1 { 
+    display: inline;
+   } 
+
+  .main-nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1rem
+  }
+
+  a:link,
+  a:visited {
+    color: #fffde7;
+    text-decoration: none;
+  }
+  
+  .main-nav a:hover {
+    background-color: #50754a;
+  }
+  
+  fieldset {
+    border: none;
+  }
+
+  button {
+    margin:0 0.5rem;
+    padding:0.5rem;
+    background-color:#d9ecd7;
+    border: none;
+    height:2rem;
+  }
+
+  ul {
+    list-style-type:decimal;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .done-button{
+    margin-right:1rem;
+  }
+
+  .div-li{
+    display:grid;
+    grid-template-columns: 22rem 5rem;
+    margin-bottom:0.5rem;
+    text-align:left
+  }
+
+#register-form{
+  display:flex;
+  flex-direction: column;
+  margin:0 3rem;
+}
+
+#login-form{
+  display:flex;
+  flex-direction: column;
+  margin:0 3rem;
+}
+
+#register-button {
+  margin: 1rem 0;
+  width:24rem
+}
+
+#login-button {
+  margin: 1rem 0;
+}
